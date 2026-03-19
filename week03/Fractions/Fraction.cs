@@ -6,7 +6,7 @@ public class Fraction
     private int _numerator;
     private int _denominator;
 
-    // 2. Constructors
+    // Constructors
     // Constructor with no parameters at 1/1
     public Fraction() : this(1, 1)
     {
