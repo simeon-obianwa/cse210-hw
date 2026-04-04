@@ -15,7 +15,6 @@ namespace YouTubeTracker
         private List<Comment> _comments;
 
 
-        /// Initializes a new instance of the Video class with the specified details.
         /// <param name="title">The title of the video.</param>
         /// <param name="author">The author of the video.</param>
         /// <param name="lengthSeconds">The length of the video in seconds.</param>
@@ -34,8 +33,7 @@ namespace YouTubeTracker
             _comments.Add(comment);
         }
 
-
-        /// Returns the total number of comments on the video.
+        /// To returns the total number of comments on the video.
         /// <returns>The count of comments.</returns>
         public int GetCommentCount()
         {

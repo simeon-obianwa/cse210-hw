@@ -3,14 +3,10 @@ using System.Collections.Generic;
 
 namespace YouTubeTracker
 {
-    /// <summary>
-    /// Entry point for the YouTube Product Awareness Tracker application.
-    /// </summary>
+    /// The entry point for the YouTube Product Awareness Tracker application.
     class Program
     {
-        /// <summary>
         /// Main entry point for the application.
-        /// </summary>
         /// <param name="args">Command-line arguments.</param>
         static void Main(string[] args)
         {
